@@ -1,0 +1,70 @@
+/* Add your styles for the overall layout, header, user profile, timeline feed, etc. here */
+
+/* Example styles for the header */
+header {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+.search-bar {
+    margin-left: auto;
+}
+
+/* Example styles for the user profile section */
+.user-profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-tabs ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.profile-tabs ul li {
+    margin-right: 20px;
+}
+
+.edit-profile {
+    background-color: #000000;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;  
+}
+
+/* Example styles for the timeline feed */
+.timeline-feed {
+    /* Add styles for posts, user info, engagement metrics, etc. */
+}
+
+/* Add styles for other sections as needed */
+
+/* Include media queries for responsiveness */

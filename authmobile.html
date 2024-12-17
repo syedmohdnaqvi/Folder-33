@@ -1,0 +1,43 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Authentication</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+<div id="app">
+    <h2>User Authentication Example</h2>
+
+    <!-- Login Form -->
+    <div id="login-container">
+        <label for="login-username">Username:</label>
+        <input type="text" id="login-username" placeholder="Enter your username">
+
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" placeholder="Enter your password">
+
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- Signup Form -->
+    <div id="signup-container">
+        <h3>Create an Account</h3>
+        <label for="signup-username">Username:</label>
+        <input type="text" id="signup-username" placeholder="Choose a username">
+
+        <label for="signup-password">Password:</label>
+        <input type="password" id="signup-password" placeholder="Choose a password">
+
+        <button onclick="signup()">Sign Up</button>
+    </div>
+
+    <div id="message"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
